@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="maximum-dpr=1" name="flexible" />
+    <meta name="apple-touch-fullscreen" content="no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>华尔街英语</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/stylesheets/app.min.css">
+    <!-- endinject -->
+</head>
+<script>
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+    function hideURLbar(){
+        window.scrollTo(0,1);
+    }
+</script>
+<body>
+<!-- the class "content" is used for flexible plugin -->
+<div class="activeRule">活动规则</div>
+<div class="swiper-container content">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide scene scene01">
+            <div class="border-flash"></div>
+            <img src="assets/images/scene01-01.png" class="img01 pa" width="100%">
+            <img src="assets/images/scene01-person.png" class="img02 pa" width="100%">
+            <img src="assets/images/scene01-z1.png" class="imgz1 pa" alt=""/>
+            <img src="assets/images/scene01-z2.png" class="imgz2 pa" alt=""/>
+            <img src="assets/images/scene01-z3.png" class="imgz3 pa" alt=""/>
+
+        </div>
+        <div class="swiper-slide scene scene02">
+            <div class="border-flash"></div>
+            <img src="assets/images/scene02-border.png" class="content-border pa" width="100%" alt=""/>
+            <img src="assets/images/scene02-z2.png" class="imgz2 pa imgz" alt=""/>
+            <img src="assets/images/scene02-z3.png" class="imgz3 pa imgz" alt=""/>
+            <img src="assets/images/scene02-z4.png" class="imgz4 pa imgz" alt=""/>
+            <img src="assets/images/scene02-zi.png" class="imgz5 pa " alt=""/>
+            <div class="video-wrapper">
+                <video class="myVideo" webkit-playsinline="true" x-webkit-airplay="true" preload="none" poster="assets/images/video-bg.jpg">
+                    <source src="assets/images/video2.mp4"  type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-box pa">
+                <img src="assets/images/scene02-play.png"  class="play-video">
+            </div>
+            <img src="assets/images/scene02-broder2.png" class="content-border2 pa" width="100%" alt=""/>
+
+            <img src="assets/images/scene02-banner.png"  class="bottom-banner pa">
+        </div>
+        <div class="swiper-slide scene scene03">
+            <div class="user-form" action="">
+                <form id="form">
+                    <div class="user-name low">
+                        <span>姓名：</span>
+                        <input type="text" placeholder="您的真实姓名以便领奖" name="name" class="name" value="" />
+                    </div>
+                    <div class="user-sex low">
+                        <label for="radio-male" class="label_radio">
+                            <input type="radio" class="radio-input" name="sex" value="1" ID="radio-male" /><span class="radio-span"></span>男
+                        </label>
+                        <label for="radio-female" class="label_radio female">
+                            <input type="radio" class="radio-input" name="sex" value="0" ID="radio-female" /><span class="radio-span"></span>女
+                        </label>
+                    </div>
+                    <div class="user-age low">
+                        <span>年龄：</span>
+                        <select class="select age" name="age">
+                            <option value ="0">仅限18-49岁用户参与</option>
+                            <option value ="15岁以下">15岁以下</option>
+                            <option value="15-17">15-17</option>
+                            <option value="18-21">18-21</option>
+                            <option value="22-24">22-24</option>
+                            <option value="25-29">25-29</option>
+                            <option value="30-39">30-39</option>
+                            <option value="40-49">40-49</option>
+                            <option value="49岁以上">49岁以上</option>
+                        </select>
+                    </div>
+                    <div class="user-mobile low">
+                        <span>手机：</span>
+                        <input type="tel" placeholder="以便联系你及时兑奖" name="mobile" class="mobile" value="" />
+                    </div>
+
+                    <div class="user-city low">
+                        <span>城市：</span>
+                        <select class="select city" name="city">
+                            <option value ="0">仅限11个城市用户参与</option>
+                            <option value ="北京">北京</option>
+                            <option value="天津">天津</option>
+                            <option value="青岛">青岛</option>
+                            <option value="南京">南京</option>
+                            <option value="上海">上海</option>
+                            <option value="无锡">无锡</option>
+                            <option value="苏州">苏州</option>
+                            <option value="杭州">杭州</option>
+                            <option value="广州">广州</option>
+                            <option value="深圳">深圳</option>
+                            <option value="佛山">佛山</option>
+                        </select>
+                    </div>
+
+                    <div class="user-email low">
+                        <span>邮箱：</span>
+                        <input type="email" placeholder="以便为您提供获奖礼物" name="mail" class="email" value="" />
+                    </div>
+
+
+                    <input type="submit" value=" " class="form-submit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="float-window">
+    <p class="content">阿萨是大的撒打算打算21312</p>
+    <img src="assets/images/warning-alert.png" width="100%">
+</div>
+
+<div class="success-window">
+    <div class="content">
+        <p class="h3">提交成功！</p>
+        <p class="h4">我们会与您取得联系</p>
+        <p class="h5">请保持手机畅通！</p>
+        <p class="link"><a href="#">查看活动规则</a></p>
+    </div>
+    <img src="assets/images/alert-ok.png" width="100%"  alt=""/>
+</div>
+
+<div class="float-window-bg"></div>
+
+<div class="activeGz"><img src="assets/images/guize.png" width="100%" class=""></div>
+
+<audio id="audio" src=""></audio>
+<!-- inject:js -->
+<script src="assets/scripts/app.min.js"></script>
+<!-- endinject -->
+</body>
+</html>
